@@ -1,0 +1,23 @@
+create directory/project
+initialize git: git init
+add directory to git: git add .
+first commit: git commit -m "first commit"
+
+create 'index.html'
+change file 'index.html'
+add file to git: git add index.html/git add .
+add commit to file: git commit -m "feature (html): [description]"
+
+create 'style.css'
+change file 'style.css'
+create connection in index.html to style.css
+add changes in index.html to git: git commit -a -m "refactor (html): linked stylesheet"
+add file to git: git add style.css/git add .
+add commit to file: git commit -m "feature (css): [description]"
+
+create 'script.js'
+change file 'script.js'
+create connection in index.html to script.js
+add changes in index.html to git: git commit -a -m "refactor (html): linked script"
+add file to git: git add script.js/git add .
+add commit to file: git commit -m "feature (js): [description]"
